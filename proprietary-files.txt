@@ -1678,6 +1678,11 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# eUICC
+system_ext/etc/permissions/jp.co.sony.mc.euiccmemoryreset.xml
+system_ext/priv-app/EuiccMemoryReset/EuiccMemoryReset.apk;PRESIGNED
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+
 # ExtLight
 vendor/bin/hw/vendor.semc.hardware.extlight-service.somc
 vendor/etc/init/vendor.semc.hardware.extlight-somc.rc

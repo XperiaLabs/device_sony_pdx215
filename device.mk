@@ -479,6 +479,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
+    SonyEuicc \
     ims-ext-common \
     ims_ext_common.xml \
     qti-telephony-hidl-wrapper \
@@ -504,6 +505,10 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUIGoogle
+
+# eUICC
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ril/privapp-permissions-euiccgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-euiccgoogle.xml
 
 # Thermal
 ifeq ($(TARGET_USE_QTI_THERMAL_SERVICE),true)
