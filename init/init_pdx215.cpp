@@ -34,5 +34,5 @@ void property_override(char const prop[], char const value[]) {
 }
 
 void vendor_load_properties() {
-    property_override("ro.rising.chipset", "Qualcomm® Snapdragon® 888 5G");
+    property_override("ro.rising.chipset", "Qualcomm® Snapdragon™ 888");
 }

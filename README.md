@@ -6,7 +6,7 @@ The Xperia 1 III (Codenamed "pdx215") is a flagship smartphone from Sony release
 
 | Feature                 | Specification                                                                       |
 | :---------------------- | :-----------------------------------------------------------------------------------|
-| Chipset                 | Qualcomm® Snapdragon® 888 5G (5 nm)                                                 |
+| Chipset                 | Qualcomm® Snapdragon™ 888 5G (5 nm)                                                 |
 | CPU                     | Octa-Core (1x 2.84 GHz Cortex-X1 & 3x 2.42 GHz Cortex-A78 & 4x 1.80 GHz Cortex-A55) |
 | GPU                     | Adreno 660                                                                          |
 | Memory                  | 12 GB LPDDR5 RAM                                                                    |
