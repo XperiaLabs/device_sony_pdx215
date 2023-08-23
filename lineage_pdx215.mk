@@ -50,7 +50,6 @@ RISING_MAINTAINER :=
 
 # GMS
 WITH_GMS := true
-TARGET_ENABLE_PIXEL_GBOARD_PADDINGS := false
 
 # Device Identifiers
 PRODUCT_NAME := lineage_pdx215
