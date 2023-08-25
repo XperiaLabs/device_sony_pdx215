@@ -462,12 +462,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     vendor/qcom/opensource/usb/etc
 
-# Sony charger interface
+# Sony Charger Interface
 PRODUCT_PACKAGES += \
     vendor.sony.charger \
-    vendor.sony.charger-service \
-    vendor.semc.hardware.charger@1.0.vendor \
-    vendor.semc.hardware.charger@1.1.vendor
+    vendor.sony.charger-service
 
 # Sony Display interface
 PRODUCT_PACKAGES += \
