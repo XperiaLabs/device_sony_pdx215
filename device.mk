@@ -579,8 +579,7 @@ PRODUCT_COPY_FILES += \
 
 # Hardware_Sony Packages
 PRODUCT_PACKAGES += \
-    XperiaParts \
-    DolbyTileService
+    XperiaParts
 
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
